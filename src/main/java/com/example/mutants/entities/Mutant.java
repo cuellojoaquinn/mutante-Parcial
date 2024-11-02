@@ -24,7 +24,7 @@ public class Mutant extends Base{
 
     public static String[] createDna(int size){
         String[] dna = new String[size];
-        char[] acgt = new char[] { 'a', 'c', 'g', 't'};
+        char[] acgt = new char[] { 'A', 'C', 'G', 'T'};
 
 
         for (int i = 0; i < size; i++) {
